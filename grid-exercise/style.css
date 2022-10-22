@@ -1,0 +1,78 @@
+.cards-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+
+.card-container {
+    -webkit-box-shadow: 0 0 10px rgba(0.55, 0.55, 0.55, 0.55);
+        box-shadow: 0 0 10px rgba(0.55, 0.55, 0.55, 0.55);
+
+    /* background: lightgreen;
+    height: 300px; */
+}
+
+.card-thumbnail-container {
+    margin-bottom: 6px;
+}
+
+.card-thumbnail {
+    width: 100%;
+}
+
+/* Row grid layout */
+.card-row-grid-container {
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    margin-left: 8px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+/* Column grid layout */
+.prof-friends-grid-container {
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.profile-pic {
+    width: 30px;
+    border-radius: 15px;
+}
+
+button {
+    /* North, East, South, West */
+    padding: 6px 12px 6px 12px;
+    background: rgb(9, 136, 215);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+/* .mimi-container {
+    background: lightpink;
+    height: 300px;
+}
+
+.rex-container {
+    background: lightskyblue;
+    height: 300px;
+} */
