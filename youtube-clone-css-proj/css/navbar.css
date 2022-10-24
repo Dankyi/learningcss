@@ -1,0 +1,40 @@
+.navbar {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section {
+    /* width: 150px; */
+    display: flex;
+}
+
+.menu-icon {
+    height: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.youtube-icon {
+    height: 25px;
+}
+
+.middle-section {
+    /* Flex the middle section only */
+    flex: 1;
+    margin-left: 60px;
+    margin-right: 40px;
+    max-width: 500px;
+    background: lightpink;
+}
+
+.right-section {
+    width: 200px;
+    background: lightblue;
+}
+
+.search-bar {
+
+}
