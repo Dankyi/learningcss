@@ -27,14 +27,47 @@
     margin-left: 60px;
     margin-right: 40px;
     max-width: 500px;
-    background: lightpink;
+    display: flex;
+}
+
+.search-input {
+    border: solid;
+	border-color: rgb(155, 154, 154);
+	border-width: 1px;
+    border-right: none; /* or margin-right: -1px*/
+    padding: 10px;
+    width: 100%;
+}
+
+.search-input::placeholder {
+	font-family: Roboto, Arial;
+}
+
+.search-btn {
+    border: solid;
+    border-color: rgb(155, 154, 154);
+    border-width: 1px;
+    margin-right: 10px;
+	width: 70px;
+}
+
+.search-icon {
+    height: 25px;
+	margin-top: 2px;
+}
+
+.voice-btn {
+	width: 40px;
+    border: none;
+	border-radius: 20px;
+}
+
+.voice-icon {
+    height: 25px;
+	margin-top: 2px;
 }
 
 .right-section {
     width: 200px;
     background: lightblue;
-}
-
-.search-bar {
-
 }
