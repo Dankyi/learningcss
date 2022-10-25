@@ -19,8 +19,18 @@
     border: none;
     background: none;
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.home-btn:hover,
+.explore-btn:hover,
+.subscriptions-btn:hover,
+.originals-btn:hover,
+.youtube-music-btn:hover,
+.library-btn:hover {
+    background: rgb(240, 240, 240);
 }
 
 .home-icon,
