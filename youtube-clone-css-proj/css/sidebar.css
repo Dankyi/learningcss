@@ -1,0 +1,39 @@
+.sidebar {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 55px;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+}
+
+.home-btn,
+.explore-btn,
+.subscriptions-btn,
+.originals-btn,
+.youtube-music-btn,
+.library-btn {
+    border: none;
+    background: none;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.home-icon,
+.explore-icon,
+.subscriptions-icon,
+.originals-icon,
+.youtube-music-icon,
+.library-icon {
+    height: 30px;
+}
+
+.sidebar-paragraph {
+    font-weight: 100;
+    font-size: 12px;
+    color: rgb(76, 76, 76);
+}

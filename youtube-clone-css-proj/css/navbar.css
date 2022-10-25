@@ -1,5 +1,7 @@
 body {
-	padding-top: 60px;
+	padding-top: 55px;
+	padding-left: 100px;
+	height: 4000px;
 }
 
 .navbar {
@@ -17,7 +19,7 @@ body {
 
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-	border-bottom-color: rgb(155, 154, 154);
+	border-bottom-color: rgb(240, 240, 240);
 }
 
 .left-section {
@@ -26,8 +28,8 @@ body {
 
 .menu-icon {
 	height: 25px;
-	margin-left: 25px;
-	margin-right: 25px;
+	margin-left: 36px;
+	margin-right: 38px;
 }
 
 .youtube-icon {
