@@ -10,6 +10,7 @@
 .thumbnail-container {
 	margin-bottom: 10px;
 	position: relative;
+	cursor: pointer;
 }
 
 .video-duration {
@@ -37,6 +38,7 @@
 .profile-picture {
 	width: 40px;
 	border-radius: 50px;
+	cursor: pointer;
 }
 
 .video-title {
@@ -44,6 +46,7 @@
 	font-weight: 500;
 	line-height: 20px;
 	margin-bottom: 12px;
+	cursor: pointer;
 }
 
 .video-author,

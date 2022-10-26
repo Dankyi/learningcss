@@ -32,10 +32,12 @@ body {
 	height: 25px;
 	margin-left: 36px;
 	margin-right: 38px;
+	cursor: pointer;
 }
 
 .youtube-icon {
 	height: 25px;
+	cursor: pointer;
 }
 
 .middle-section {
@@ -67,6 +69,7 @@ body {
 	border-width: 1px;
 	margin-right: 10px;
 	width: 60px;
+	cursor: pointer;
 }
 
 .search-icon {
@@ -78,6 +81,8 @@ body {
 	width: 40px;
 	border: none;
 	border-radius: 20px;
+	position: relative;
+	cursor: pointer;
 }
 
 .voice-icon {
@@ -100,8 +105,10 @@ body {
 	border: none;
 	background: none;
 	position: relative;
+	cursor: pointer;
 }
 
+.voice-tooltip,
 .upload-tooltip,
 .youtube-apps-tooltip,
 .notifications-tooltip {
@@ -113,6 +120,10 @@ body {
 	position: absolute;
 	z-index: 1;
 	visibility: hidden;
+}
+
+.voice-tooltip {
+	left: -36px;
 }
 
 .upload-tooltip {
@@ -127,6 +138,7 @@ body {
 	left: -22px;
 }
 
+.voice-btn:hover .voice-tooltip,
 .upload-btn:hover .upload-tooltip,
 .youtube-apps-btn:hover .youtube-apps-tooltip,
 .notification-btn:hover .notifications-tooltip {

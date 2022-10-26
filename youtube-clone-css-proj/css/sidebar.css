@@ -23,6 +23,7 @@
     margin-top: 0;
     padding-top: 15px;
     padding-bottom: 15px;
+    cursor: pointer;
 }
 
 .home-btn:hover,
