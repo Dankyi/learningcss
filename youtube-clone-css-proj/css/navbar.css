@@ -51,9 +51,7 @@ body {
 
 .search-input {
 	flex: 1;
-	border: solid;
-	border-color: rgb(155, 154, 154);
-	border-width: 1px;
+	border: 1px solid rgb(155, 154, 154);
 	border-right: none; /* or margin-right: -1px*/
 	padding: 10px;
 	width: 0;
@@ -64,9 +62,7 @@ body {
 }
 
 .search-btn {
-	border: solid;
-	border-color: rgb(155, 154, 154);
-	border-width: 1px;
+	border: 1px solid rgb(155, 154, 154);	
 	margin-right: 10px;
 	width: 60px;
 	cursor: pointer;
@@ -151,10 +147,8 @@ body {
 	background: rgb(218, 19, 19);
 	color: white;
 	width: 15px;
-	padding: 2px 3px 2px 3px;
-	font-family: Roboto, Arial, Helvetica, sans-serif;
+	padding: 2px 3px;
 	font-size: 12px;
-	font-family: Arial;
 	border-radius: 12px;
 	position: absolute;
 	top: 2px;
