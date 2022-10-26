@@ -99,6 +99,38 @@ body {
 	width: 40px;
 	border: none;
 	background: none;
+	position: relative;
+}
+
+.upload-tooltip,
+.youtube-apps-tooltip,
+.notifications-tooltip {
+	background: rgb(105, 101, 101);
+	color: white;
+	white-space: nowrap;
+	padding: 6px;
+	border-radius: 2px;
+	position: absolute;
+	z-index: 1;
+	visibility: hidden;
+}
+
+.upload-tooltip {
+	right: -6px;
+}
+
+.youtube-apps-tooltip {
+	right: -30px;
+}
+
+.notifications-tooltip {
+	left: -22px;
+}
+
+.upload-btn:hover .upload-tooltip,
+.youtube-apps-btn:hover .youtube-apps-tooltip,
+.notification-btn:hover .notifications-tooltip {
+	visibility: visible;
 }
 
 .upload-icon,
