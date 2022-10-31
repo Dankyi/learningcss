@@ -14,7 +14,9 @@ module.exports = {
 			"lightGray": "#9b9a9a",
 			"semiLightGray": "#f2efef",
 			"lighterGray": "#f0f0f0",
-			"lightestGray": "#f8f8f8"
+			"lightestGray": "#f8f8f8",
+			"red": "#da1313",
+			"white": "#fff"
 		},
 		fontFamily: {
 			roboto: ['"Roboto"', 'Arial'],

@@ -557,60 +557,100 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.ml-3 {
-  margin-left: 0.75rem;
+.absolute {
+  position: absolute;
 }
 
-.-ml-4 {
-  margin-left: -1rem;
+.relative {
+  position: relative;
 }
 
-.-ml-5 {
-  margin-left: -1.25rem;
+.left-0 {
+  left: 0px;
 }
 
-.-ml-8 {
-  margin-left: -2rem;
+.left-5 {
+  left: 1.25rem;
 }
 
-.-ml-9 {
-  margin-left: -2.25rem;
+.top-5 {
+  top: 1.25rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-1 {
+  top: 0.25rem;
+}
+
+.-top-1 {
+  top: -0.25rem;
+}
+
+.-top-2 {
+  top: -0.5rem;
+}
+
+.left-6 {
+  left: 1.5rem;
+}
+
+.left-7 {
+  left: 1.75rem;
+}
+
+.-top-3 {
+  top: -0.75rem;
+}
+
+.-top-0 {
+  top: -0px;
+}
+
+.mr-8 {
+  margin-right: 2rem;
+}
+
+.mr-5 {
+  margin-right: 1.25rem;
 }
 
 .-ml-10 {
   margin-left: -2.5rem;
 }
 
-.mr-12 {
-  margin-right: 3rem;
+.ml-3 {
+  margin-left: 0.75rem;
 }
 
-.mr-20 {
-  margin-right: 5rem;
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
-.ml-20 {
-  margin-left: 5rem;
+.ml-6 {
+  margin-left: 1.5rem;
 }
 
-.ml-1 {
-  margin-left: 0.25rem;
-}
-
-.ml-10 {
-  margin-left: 2.5rem;
+.ml-8 {
+  margin-left: 2rem;
 }
 
 .mr-10 {
   margin-right: 2.5rem;
 }
 
-.flex {
-  display: flex;
+.mr-6 {
+  margin-right: 1.5rem;
 }
 
-.hidden {
-  display: none;
+.mr-4 {
+  margin-right: 1rem;
+}
+
+.flex {
+  display: flex;
 }
 
 .h-6 {
@@ -621,14 +661,6 @@ video {
   height: 1.75rem;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
-.w-52 {
-  width: 13rem;
-}
-
 .w-full {
   width: 100%;
 }
@@ -637,48 +669,40 @@ video {
   width: 4rem;
 }
 
-.w-14 {
-  width: 3.5rem;
-}
-
 .w-10 {
   width: 2.5rem;
 }
 
-.w-12 {
-  width: 3rem;
+.w-2 {
+  width: 0.5rem;
 }
 
-.w-20 {
-  width: 5rem;
+.w-4 {
+  width: 1rem;
 }
 
-.w-0 {
-  width: 0px;
+.w-5 {
+  width: 1.25rem;
 }
 
-.w-56 {
-  width: 14rem;
+.w-8 {
+  width: 2rem;
 }
 
-.w-60 {
-  width: 15rem;
+.w-6 {
+  width: 1.5rem;
 }
 
-.flex-initial {
-  flex: 0 1 auto;
+.w-14 {
+  width: 3.5rem;
+}
+
+.w-1 {
+  width: 0.25rem;
 }
 
 .flex-1 {
   flex: 1 1 0%;
-}
-
-.grow {
-  flex-grow: 1;
-}
-
-.place-content-center {
-  place-content: center;
 }
 
 .items-center {
@@ -689,21 +713,8 @@ video {
   justify-content: space-between;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-full {
   border-radius: 9999px;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
-.rounded-r-lg {
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
 }
 
 .rounded-r-full {
@@ -715,12 +726,8 @@ video {
   border-width: 1px;
 }
 
-.border-l-0 {
-  border-left-width: 0px;
-}
-
-.border-l {
-  border-left-width: 1px;
+.border-b {
+  border-bottom-width: 1px;
 }
 
 .border-solid {
@@ -732,9 +739,19 @@ video {
   border-color: rgb(155 154 154 / var(--tw-border-opacity));
 }
 
+.border-b-lighterGray {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(240 240 240 / var(--tw-border-opacity));
+}
+
 .bg-semiLightGray {
   --tw-bg-opacity: 1;
   background-color: rgb(242 239 239 / var(--tw-bg-opacity));
+}
+
+.bg-red {
+  --tw-bg-opacity: 1;
+  background-color: rgb(218 19 19 / var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -743,10 +760,6 @@ video {
 
 .p-1 {
   padding: 0.25rem;
-}
-
-.p-3 {
-  padding: 0.75rem;
 }
 
 .py-2 {
@@ -764,6 +777,52 @@ video {
   padding-right: 0.5rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-1\.5 {
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-roboto {
+  font-family: "Roboto", Arial;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .placeholder\:pl-2::-moz-placeholder {
   padding-left: 0.5rem;
 }
@@ -773,23 +832,7 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:block {
-    display: block;
-  }
-
-  .md\:max-w-4xl {
-    max-width: 56rem;
-  }
-
   .md\:max-w-2xl {
     max-width: 42rem;
-  }
-
-  .md\:flex-1 {
-    flex: 1 1 0%;
-  }
-
-  .md\:p-2 {
-    padding: 0.5rem;
   }
 }
